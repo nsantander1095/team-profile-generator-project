@@ -23,7 +23,6 @@ function addTeamMember() {
             'I don\'t want to add any more team members.',
         ],
     }]).then((answer) => {
-        console.log(answer);
         if (answer.value === 'Engineer') {
             prompt(engineerQues).then((data) => {
                 const newEngineer = new Engineer(data.name, data.id, data.email, data.gitHub);
@@ -39,7 +38,6 @@ function addTeamMember() {
             })
         }
         if (answer.value === 'I don\'t want to add any more team members.') {
-            console.log(team);
             fs.writeFileSync(`dist/team.html`, pageTemplate(team));
         }
     });
