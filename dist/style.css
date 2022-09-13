@@ -1,0 +1,8 @@
+.jumbotron {
+    background-color: rgba(223, 40, 40, 0.74);
+    color: white;
+}
+
+.card {
+    box-shadow: 10px 5px 10px gray;
+}
