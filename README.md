@@ -35,7 +35,7 @@ Upon cloning the repository, you will need to run some commands:
 
 ## Visuals
 
-To see a full walkthorugh of how to download dependencies, test the class scripts, and to use the app go to this [link.]()
+To see a full walkthorugh of how to download dependencies, test the class scripts, and to use the app go to this [link.](https://drive.google.com/file/d/1W_grpHUnCfzjtZgn1u32kyf_IfjTXc_e/view?usp=sharing)
 
 Mock up of the premade "team.html" provided before running the application:
 
