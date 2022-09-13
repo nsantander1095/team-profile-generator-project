@@ -16,6 +16,6 @@ describe("Engineer", () => {
     it('should get GitHub username via getGitHub()', () => {
         const obj = new Engineer('Bob', 14, 'bob@builder.com', 'BobBuilder');
         const value = 'BobBuilder';
-        expect(obj.getGitHub()).toEqual(value);
+        expect(obj.getGithub()).toEqual(value);
     })
 });

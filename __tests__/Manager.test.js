@@ -13,10 +13,10 @@ describe("Manager", () => {
         expect(obj.getRole()).toEqual(value);
     })
 
-    it('should get office number via getOffice()', () => {
+    it('should get office number via getOfficeNumber()', () => {
         const obj = new Manager('James', 12, 'funguy@gmail.com', 24);
         const value = 24;
-        expect(obj.getOffice()).toEqual(value);
+        expect(obj.getOfficeNumber()).toEqual(value);
     })
 });
 
