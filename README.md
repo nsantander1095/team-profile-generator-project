@@ -36,3 +36,7 @@ Upon cloning the repository, you will need to run some commands:
 ## Visuals
 
 To see a full walkthorugh of how to download dependencies, test the class scripts, and to use the app go to this [link.]()
+
+Mock up of the premade "team.html" provided before running the application:
+
+![Mockup screenshot](./src/img/team-screenshot.png)
